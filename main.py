@@ -80,7 +80,7 @@ class Game:
         pygame.mixer.init()
         self.play_background_music()
         self.surface = pygame.display.set_mode((1000, 800))
-        self.snake = Snake(self.surface, 40)
+        self.snake = Snake(self.surface, 1)
         self.snake.draw()
         self.apple = Apple(self.surface)
         self.apple.draw()
